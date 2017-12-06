@@ -30,7 +30,7 @@ cabal sandbox add-source posix-fd-io nfc-text fish-lang fish-parser hfish-parser
 cabal install --ghc-option=-threaded
 ```
 
-There is a [build script][hfish-build-script] containing theses lines, so equivalently (assuming you have wget) you could do:
+There is a [build script][hfish-build-script] containing these lines, so equivalently (assuming you have wget) you could do:
 ```sh
 wget -O - https://gitlab.com/hfish-shell/hfish/raw/master/build | sh
 ```
